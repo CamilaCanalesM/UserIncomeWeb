@@ -20,6 +20,7 @@
         <label for="correo">Correo:</label>
         <input type="email" id="correo" name="correo" required><br>
         
+        <input type="hidden" name="action" value="create">
         <input type="submit" value="Guardar">
     </form>
 </body>
